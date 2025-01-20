@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Formatting\Simple\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>
