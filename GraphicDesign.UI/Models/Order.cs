@@ -17,7 +17,7 @@ namespace GraphicDesign.UI.Models
     }
     public class Order
     {
-        public static ulong orderId;
+        public ulong orderId;
         public string customeFullName = "";
         public string phoneNumber = "";
         public decimal paymentAmount;
