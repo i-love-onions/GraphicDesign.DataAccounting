@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using GraphicDesign.UI.Models;
 using GraphicDesign.UI.Settings;
+using PhoneNumbers;
 
 namespace Common.ConsoleIO
 {
@@ -18,9 +19,9 @@ namespace Common.ConsoleIO
         {
             return Inputting.InputString("Повне ім'я замовника", Limitation.minOrderCustomerNameLenght, Limitation.maxOrderCustomerNameLenght);
         }
-        public static string InputOrderPhone() 
+        public static PhoneNumber InputOrderPhone() 
         {
-            return Inputting.InputString("Номер телефону замовника", Limitation.phoneRegex, "Невірний номер телефону. Формат");
+            return Inputting.InputPhoneNumber("Номер телефону замовника");
         }
         public static decimal InputOrderPayment()
         {

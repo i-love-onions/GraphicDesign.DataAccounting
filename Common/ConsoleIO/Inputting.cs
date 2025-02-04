@@ -9,6 +9,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using GraphicDesign.UI.Models;
+using PhoneNumbers;
 
 namespace Common.ConsoleIO
 {
@@ -269,6 +270,23 @@ namespace Common.ConsoleIO
                 }
                 OutErrorMessage("\t  Введіть значення в межах від 0 до 5");
             } 
+        }
+        public static PhoneNumber InputPhoneNumber(string prompt)
+        {
+            while (true)
+            {
+                var phoneNumberUtil = PhoneNumberUtil.GetInstance();
+                OutPrompt(prompt);
+                string str = Console.ReadLine();
+                try
+                {
+                    return phoneNumberUtil.Parse(str, null);
+                }
+                catch (Exception)
+                { 
+                    OutErrorMessage("\tпомилка введення номеру");
+                }
+            }
         } 
     }
 }

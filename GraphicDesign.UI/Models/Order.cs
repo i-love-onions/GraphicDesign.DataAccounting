@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PhoneNumbers;
 
 namespace GraphicDesign.UI.Models
 {
@@ -19,7 +20,7 @@ namespace GraphicDesign.UI.Models
     {
         public ulong orderId;
         public string customeFullName = "";
-        public string phoneNumber = "";
+        public PhoneNumber phoneNumber;
         public decimal paymentAmount;
         public OrderState orderState;
         public string order = "";

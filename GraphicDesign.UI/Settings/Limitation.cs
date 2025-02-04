@@ -11,7 +11,8 @@ namespace GraphicDesign.UI.Settings
         // Order class
         static public int minOrderCustomerNameLenght = 5;
         static public int maxOrderCustomerNameLenght = 50;
-        static public string phoneRegex = @"^\d{7,15}$";
+        //static public string phoneRegex = @"^\d{}$";
+        static public string phoneRegex = @"^\d{9}$";
         static public decimal minOrderPayment = 0m;
         static public int minOrderDescriptionLenght = 0;
         static public int maxOrderDescriptionLenght = short.MaxValue;
