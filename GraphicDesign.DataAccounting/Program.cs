@@ -17,7 +17,8 @@ namespace GraphicDesign.DataAccounting
             Console.WriteLine("Дослідження роботи програмних засобів");
 
             //Studying.ModelsTraining.Run();
-            Studying.InputtingTraining.Run();
+            //Studying.InputtingTraining.Run();
+            Studying.ListsSetTraining.Run();
             Console.ReadKey();
         }
     }
