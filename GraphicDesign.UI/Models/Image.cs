@@ -22,10 +22,9 @@ namespace GraphicDesign.UI.Models
         public DateTime CreationDate { get; set; }
         public string Desctiption { get; set; }
         public string Note { get; set; }
-        Order Order { get; set; }
     }
     public class Logo : Image, IImage 
-    {       
+    {    
     }
     public class Illustration : Image, IImage
     {
