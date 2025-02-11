@@ -84,17 +84,17 @@ namespace GraphicDesign.DataAccounting.Studying
             Console.WriteLine("Введіть дані замовлення");
             Inputting.OutInputtingPrompt();
 
-            model.orderId = DataInputting.InputOrderId(new List<ulong>(new ulong[] { 999 }));
-            model.customeFullName = DataInputting.InputOrderCustomerName();
-            model.phoneNumber = DataInputting.InputOrderPhone();
-            model.paymentAmount = DataInputting.InputOrderPayment();
-            model.orderState = DataInputting.InputOrderState();
-            model.order = DataInputting.InputOrderInfo();
-            model.creationTime = DataInputting.InputOrderCreationTime();
-            model.deadline = DataInputting.InputOrderDeadline();
-            model.workResult = DataInputting.InputOrderResult();
-            model.usedTools = DataInputting.InputOrderInstrumentsList();
-            model.note = DataInputting.InputOrderNote();
+            model.OrderId = DataInputting.InputOrderId(new List<ulong>(new ulong[] { 999 }));
+            model.CustomerFullName = DataInputting.InputOrderCustomerName();
+            model.PhoneNumber = DataInputting.InputOrderPhone();
+            model.PaymentAmount = DataInputting.InputOrderPayment();
+            model.OrderState = DataInputting.InputOrderState();
+            model.Description = DataInputting.InputOrderInfo();
+            model.CreationTime = DataInputting.InputOrderCreationTime();
+            model.Deadline = DataInputting.InputOrderDeadline();
+            model.WorkResult = DataInputting.InputOrderResult();
+            model.UsedTools = DataInputting.InputOrderInstrumentsList();
+            model.Note = DataInputting.InputOrderNote();
         }
     }
 }

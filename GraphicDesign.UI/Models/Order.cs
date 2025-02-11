@@ -18,16 +18,25 @@ namespace GraphicDesign.UI.Models
     }
     public class Order
     {
-        public ulong orderId;
-        public string customeFullName = "";
-        public PhoneNumber phoneNumber;
-        public decimal paymentAmount;
-        public OrderState orderState;
-        public string order = "";
-        public DateTime creationTime;
-        public DateTime deadline;
-        public IImage workResult = new ImagePlaceholder();
-        public List<Instrument> usedTools = new List<Instrument>();
-        public string note = "";
+        public ulong OrderId;
+        public string CustomerFullName = "";
+        public PhoneNumber PhoneNumber;
+        public decimal PaymentAmount;
+        public OrderState OrderState;
+        public string Description = "";
+        public DateTime CreationTime;
+        public DateTime Deadline;
+        public IImage WorkResult = new ImagePlaceholder();
+        public List<Instrument> UsedTools = new List<Instrument>();
+        public string Note = "";
+        public static PhoneNumber StringToPhone(string value)
+        {
+            PhoneNumberUtil phoneNumberUtil = PhoneNumberUtil.GetInstance();
+            return phoneNumberUtil.Parse(value, null);
+        }
+        public static string PhoneToString(PhoneNumber phone)
+        {
+            return PhoneNumberUtil.GetInstance().Format(phone, PhoneNumberFormat.INTERNATIONAL).ToString();
+        }
     }
 }

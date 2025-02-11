@@ -10,8 +10,4 @@
     <PackageReference Include="libphonenumber-csharp" Version="8.13.54" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Data\Testing\" />
-  </ItemGroup>
-
 </Project>

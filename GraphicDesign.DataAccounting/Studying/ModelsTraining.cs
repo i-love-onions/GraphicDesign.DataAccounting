@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GraphicDesign.UI.Models;
-using GraphicDesign.UI.Formatting.Simple;
+using GraphicDesign.UI.Formatting;
 using System.Globalization;
 
 namespace GraphicDesign.DataAccounting.Studying

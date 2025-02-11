@@ -12,5 +12,13 @@ namespace GraphicDesign.UI.Models
         public decimal Price;
         public DateTime PaymentDate;
         public string Note = "";
+
+        public Order Order
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

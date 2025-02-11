@@ -9,14 +9,20 @@ namespace GraphicDesign.UI.Models
 {
     public abstract class Image
     {
-        public string Name = "";
-        public string FilePath = "";
-        public DateTime CreationDate;
-        public string Desctiption = "";
-        public string Note = "";
+        public string Name { get; set; }
+        public string FilePath { get; set; }
+        public DateTime CreationDate { get; set; }
+        public string Desctiption { get; set; }
+        public string Note { get; set; }
     }
     public interface IImage
     {
+        public string Name { get; set; }
+        public string FilePath { get; set; }
+        public DateTime CreationDate { get; set; }
+        public string Desctiption { get; set; }
+        public string Note { get; set; }
+        Order Order { get; set; }
     }
     public class Logo : Image, IImage 
     {       
