@@ -25,13 +25,13 @@ namespace GraphicDesign.DataAccounting.Studying
 
             //Дослідження класу Instrument           
             Instrument instrument1 = new Instrument();
-            instrument1.ToolName = "Листок паперу";
+            instrument1.Name = "Листок паперу";
 
-            Console.WriteLine("ToolName1: " + instrument1.ToolName);
-            Console.WriteLine("ToolName1: {0}", instrument1.ToolName);
-            Console.WriteLine($"ToolName1: {instrument1.ToolName}");
+            Console.WriteLine("ToolName1: " + instrument1.Name);
+            Console.WriteLine("ToolName1: {0}", instrument1.Name);
+            Console.WriteLine($"ToolName1: {instrument1.Name}");
 
-            instrument1.ToolName = "ChatGPT plus";
+            instrument1.Name = "ChatGPT plus";
             instrument1.Price = 20;
             instrument1.PaymentDate = DateTime.ParseExact("05/01/2025", "dd/mm/yyyy", CultureInfo.InvariantCulture);
             instrument1.Note = "preset";
@@ -41,7 +41,7 @@ namespace GraphicDesign.DataAccounting.Studying
 
             Instrument instrument2 = new Instrument()
             {
-                ToolName = "Midjourney",
+                Name = "Midjourney",
                 Price = 10,
                 PaymentDate = DateTime.ParseExact("21/11/2024", "dd/mm/yyyy", CultureInfo.InvariantCulture),
                 Note = "preset"

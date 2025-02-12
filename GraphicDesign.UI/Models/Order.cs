@@ -29,6 +29,7 @@ namespace GraphicDesign.UI.Models
         public IImage WorkResult = new ImagePlaceholder();
         public List<Instrument> UsedTools = new List<Instrument>();
         public string Note = "";
+
         public static PhoneNumber StringToPhone(string value)
         {
             PhoneNumberUtil phoneNumberUtil = PhoneNumberUtil.GetInstance();

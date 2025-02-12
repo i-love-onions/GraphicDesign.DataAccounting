@@ -70,7 +70,7 @@ namespace GraphicDesign.DataAccounting.Studying
             Console.WriteLine("Введіть дані інструменту");
             Inputting.OutInputtingPrompt();
 
-            model.ToolName = DataInputting.InputInstrumentName();
+            model.Name = DataInputting.InputInstrumentName();
             model.Price = DataInputting.InputInstrumentPrice();
             model.PaymentDate = DataInputting.InputInstrumentDate();
             model.Note = DataInputting.InputInstrumentNote();

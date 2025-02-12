@@ -18,7 +18,8 @@ namespace GraphicDesign.DataAccounting
 
             //Studying.ModelsTraining.Run();
             //Studying.InputtingTraining.Run();
-            Studying.ListsSetTraining.Run();
+            //Studying.ListsSetTraining.Run();
+            Studying.TableFormattingTraining.Run();
             Console.ReadKey();
         }
     }

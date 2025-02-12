@@ -34,7 +34,7 @@ namespace GraphicDesign.UI.Formatting
                 "Ціна: {1}\n" +
                 "Дата оплати: {2}\n" +
                 "Нотатка: {3}\n",
-                tool.ToolName,
+                tool.Name,
                 tool.Price.ToString(),
                 tool.PaymentDate.ToString(),
                 tool.Note).ToTextBlocks(ValueIndent, true);

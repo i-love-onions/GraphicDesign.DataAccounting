@@ -32,34 +32,43 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GraphicDesign.UI.Models.Instrument">
-    <Position X="11.75" Y="7" Width="1.5" />
+    <Position X="12" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAkAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <HashCode>AAgAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
       <FileName>Models\Instrument.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Order" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="GraphicDesign.UI.Models.Order">
-    <Position X="14.25" Y="2.5" Width="1.5" />
+    <Position X="14.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EgAAAAAAAAAgAAAAAAAEQAAAAAAAAgAAAAEAgAMAAAA=</HashCode>
       <FileName>Models\Order.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="UsedTools" />
+      <Field Name="WorkResult" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="18.5" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="System.Collections.Generic.List&lt;T&gt;.Enumerator" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="GraphicDesign.UI.Models.IImage">
-    <Position X="11.25" Y="2.75" Width="1.5" />
+    <Position X="12" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAEAAAAAAAAAAAAgAAAAAAQAAAAAAAAAAABAAAEAAAA=</HashCode>
+      <HashCode>QAAAAAAAAAAAAAAgAAAAAAQAAAAAAAAAAABAAAEAAAA=</HashCode>
       <FileName>Models\Image.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Order" />
-    </ShowAsAssociation>
   </Interface>
   <Enum Name="GraphicDesign.UI.Models.OrderState">
-    <Position X="16.25" Y="2.5" Width="1.5" />
+    <Position X="16.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAAAABAIAAAAgAAAAAIAAAAAAAAAAAAACA=</HashCode>
       <FileName>Models\Order.cs</FileName>

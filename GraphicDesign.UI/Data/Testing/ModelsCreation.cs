@@ -144,34 +144,35 @@ namespace GraphicDesign.UI.Data.Testing
             {
                 new Instrument()
                 {
-                    ToolName = "ChatGPT plus",
+                    Name = "ChatGPT plus",
                     Price = 20,
                     PaymentDate = new DateTime(2025, 1, 5),
                     Note = "preset",
                 },
                 new Instrument()
                 {
-                    ToolName = "Midjourney",
+                    Name = "Midjourney",
                     Price = 10m,
                     PaymentDate = new DateTime(2024, 11, 21),
                     Note = "preset",
                 },
                 new Instrument()
                 {
-                    ToolName = "Canva",
+                    Name = "Canva",
                     Price = 0m,
+                    PaymentDate = new DateTime(2024, 11, 21),
                     Note = "preset",
                 },
                 new Instrument()
                 {
-                    ToolName = "Jasper.ai",
+                    Name = "Jasper.ai",
                     Price = 39m,
                     PaymentDate = new DateTime(2024, 10, 16),
                     Note = "preset",
                 },
                 new Instrument()
                 {
-                    ToolName = "InDesign",
+                    Name = "InDesign",
                     Price = 11.03m,
                     PaymentDate = new DateTime(2024, 11, 1),
                     Note = "preset",
@@ -179,7 +180,7 @@ namespace GraphicDesign.UI.Data.Testing
 
                 new Instrument()
                 {
-                    ToolName = "Illustrator",
+                    Name = "Illustrator",
                     Price = 11.03m,
                     PaymentDate = new DateTime(2024, 11, 1),
                     Note = "preset",
@@ -187,14 +188,14 @@ namespace GraphicDesign.UI.Data.Testing
 
                 new Instrument()
                 {
-                    ToolName = "Photoshop",
+                    Name = "Photoshop",
                     Price = 11.03m,
                     PaymentDate = new DateTime(2024, 11, 1),
                     Note = "preset",
                 },
                 new Instrument()
                 {
-                    ToolName = "Creative Cloud",
+                    Name = "Creative Cloud",
                     Price = 11.03m,
                     PaymentDate = new DateTime(2025, 1, 11),
                     Note = "preset",

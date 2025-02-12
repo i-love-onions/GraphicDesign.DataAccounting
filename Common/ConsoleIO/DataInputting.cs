@@ -53,7 +53,7 @@ namespace Common.ConsoleIO
         {
             // Потрібно доробити
             Console.WriteLine("Створено список заглушку");
-            return new List<Instrument>(new Instrument[] {new Instrument { ToolName = "Foo"} });
+            return new List<Instrument>(new Instrument[] {new Instrument { Name = "Foo"} });
         }
         public static string InputOrderNote()
         {
