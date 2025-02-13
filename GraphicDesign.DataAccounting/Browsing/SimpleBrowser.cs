@@ -111,7 +111,7 @@ namespace GraphicDesign.DataAccounting.Browsing
         }
         public void ShowOrderDetails()
         {
-            ulong id = Inputting.InputUInt64("");
+            ulong id = Inputting.InputUInt64("Введіть айді замовлення");
             Order obj = ModelsSearching.ByName(_listsSet.Orders, id);
             if (obj == null)
             {
