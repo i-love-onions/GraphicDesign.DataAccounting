@@ -5,11 +5,13 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using Common.ConsoleIO;
+using GraphicDesign.DataAccounting.Browsing;
 
 namespace GraphicDesign.DataAccounting
 {
     public class Program
     {
+        static SimpleBrowser s_simpleBrowser = new SimpleBrowser();
         public static void Main(string[] args)
         {
             Console.Title = "GraphicDesign.DataAccounting(Лотоцький Н. О.)";
@@ -19,8 +21,9 @@ namespace GraphicDesign.DataAccounting
             //Studying.ModelsTraining.Run();
             //Studying.InputtingTraining.Run();
             //Studying.ListsSetTraining.Run();
-            Studying.TableFormattingTraining.Run();
-            Console.ReadKey();
+            //Studying.TableFormattingTraining.Run();
+            s_simpleBrowser.Run();
+            //Console.ReadKey();
         }
     }
 }

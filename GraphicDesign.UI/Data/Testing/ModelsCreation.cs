@@ -16,20 +16,20 @@ namespace GraphicDesign.UI.Data.Testing
             {
                 new Logo()
                 {
-                    Name = "EcoWave",
-                    FilePath = "/logos/Company_EcoWave.jpg",
-                    CreationDate = new DateTime(2024, 12, 14),
-                    Desctiption = "Prompt: Create a logo that combines the image of a wave with " +
-                    "eco-friendly elements (e.g., leaves, trees). Use natural green and blue colors.",
-                    Note = "preset"
-                },
-                new Logo()
-                {
                     Name = "TechNest",
                     FilePath = "./logos/Company_TechNest.jpg",
                     CreationDate = new DateTime(2024, 11, 27),
                     Desctiption = "Prompt: Design a modern, minimalist logo that combines technology " +
                     "and innovation. Use clean lines and colors like blue or gray.",
+                    Note = "preset"
+                },
+                new Logo()
+                {
+                    Name = "EcoWave",
+                    FilePath = "/logos/Company_EcoWave.jpg",
+                    CreationDate = new DateTime(2024, 12, 14),
+                    Desctiption = "Prompt: Create a logo that combines the image of a wave with " +
+                    "eco-friendly elements (e.g., leaves, trees). Use natural green and blue colors.",
                     Note = "preset"
                 },
                 new Logo()

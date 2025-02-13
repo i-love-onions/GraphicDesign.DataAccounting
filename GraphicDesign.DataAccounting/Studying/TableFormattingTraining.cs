@@ -17,9 +17,9 @@ namespace GraphicDesign.DataAccounting.Studying
         public static void Run()
         {
             Console.WriteLine(" === TableFormattingTraining === ");
-            //StudySimpleDataTableFormatting();
-            //StudyBorderedDataTableFormatting();
-            //StudyBorderStyles();
+            StudySimpleDataTableFormatting();
+            StudyBorderedDataTableFormatting();
+            StudyBorderStyles();
             StudyColumnVisibility();
         }
         public static void StudyColumnVisibility()
